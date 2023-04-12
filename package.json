@@ -3,18 +3,20 @@
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
     "build": "sanity build",
     "deploy": "sanity deploy",
+    "undeploy": "sanity undeploy",
     "deploy-graphql": "sanity graphql deploy"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
+    "@sanity/code-input": "^4.1.0",
     "@sanity/vision": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
