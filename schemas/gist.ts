@@ -12,7 +12,7 @@ export default defineType({
     }),
     defineField({
       name: 'public',
-      title: 'Visiablity',
+      title: 'Public',
       type: 'boolean',
       initialValue: true,
     }),
